@@ -15,7 +15,7 @@ namespace ConsoleApp
         {
             void Polindrom(string num_str)
             {
-                if (num_str[0] == num_str[4] && num_str[1] == num_str[3])
+                if (num_str[0] == num_str[4] & num_str[1] == num_str[3])
                 {
                     Console.WriteLine("число " + num_str + " является полиндромом");
                 }
